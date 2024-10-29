@@ -1,0 +1,19 @@
+"""Create a global variable: Start by defining a global variable outside any function. Name it global_var and set it
+to a string value, e.g., "I am global!".
+Define a function: Create a function called print_variables(). Inside this function:
+Print the global variable global_var.
+Define a local variable named local_var and set it to a string value, e.g., "I am local!".
+Print the local variable local_var.
+Call the function: After defining the function, call print_variables() to see the output.
+Try to access local variable: Outside of the function, try to print local_var. Observe what happens."""
+
+global_var = "I am global!"
+
+
+def part_variable():
+    print(global_var)
+    local_var = "I am local!"
+    print(local_var)
+
+
+part_variable()
